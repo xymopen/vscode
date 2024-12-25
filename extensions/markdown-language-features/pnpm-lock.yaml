@@ -1,0 +1,605 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@vscode/extension-telemetry':
+        specifier: ^0.9.0
+        version: 0.9.0(tslib@2.8.1)
+      dompurify:
+        specifier: ^3.1.7
+        version: 3.1.7
+      highlight.js:
+        specifier: ^11.8.0
+        version: 11.8.0
+      markdown-it:
+        specifier: ^12.3.2
+        version: 12.3.2
+      markdown-it-front-matter:
+        specifier: ^0.2.4
+        version: 0.2.4
+      morphdom:
+        specifier: ^2.6.1
+        version: 2.6.1
+      picomatch:
+        specifier: ^2.3.1
+        version: 2.3.1
+      punycode:
+        specifier: ^2.3.1
+        version: 2.3.1
+      vscode-languageclient:
+        specifier: ^8.0.2
+        version: 8.0.2
+      vscode-languageserver-textdocument:
+        specifier: ^1.0.11
+        version: 1.0.11
+      vscode-markdown-languageserver:
+        specifier: ^0.5.0-alpha.9
+        version: 0.5.0-alpha.9
+      vscode-uri:
+        specifier: ^3.0.3
+        version: 3.0.8
+    devDependencies:
+      '@types/dompurify':
+        specifier: ^3.0.5
+        version: 3.0.5
+      '@types/lodash.throttle':
+        specifier: ^4.1.3
+        version: 4.1.3
+      '@types/markdown-it':
+        specifier: 12.2.3
+        version: 12.2.3
+      '@types/picomatch':
+        specifier: ^2.3.0
+        version: 2.3.0
+      '@types/vscode-notebook-renderer':
+        specifier: ^1.60.0
+        version: 1.60.0
+      '@types/vscode-webview':
+        specifier: ^1.57.0
+        version: 1.57.0
+      '@vscode/markdown-it-katex':
+        specifier: ^1.0.2
+        version: 1.0.2
+      lodash.throttle:
+        specifier: ^4.1.1
+        version: 4.1.1
+      vscode-languageserver-types:
+        specifier: ^3.17.2
+        version: 3.17.5
+      vscode-markdown-languageservice:
+        specifier: ^0.3.0-alpha.3
+        version: 0.3.0-alpha.3
+
+packages:
+
+  '@microsoft/1ds-core-js@4.0.3':
+    resolution: {integrity: sha512-FrxNLVAPsAvD7+l63TlNS/Kodvpct2WulpDSn1dI4Xuy0kF4E2H867kHdwL/iY1Bj3zA3FSy/jvE4+OcDws7ug==}
+
+  '@microsoft/1ds-post-js@4.0.3':
+    resolution: {integrity: sha512-uewvmUtXKd7ttypiKQGdYI6i7UUpPkOznLayzIFrJ4r2xnG6jhPjpKRncHFXPQcM4XSWO3yf5PQ3xAbPq9t7ZQ==}
+
+  '@microsoft/applicationinsights-channel-js@3.0.4':
+    resolution: {integrity: sha512-6TlfExmErQ8Y+/ChbkyWl+jyt4wg3T6p7lwXDsUCB0LgZmlEWMaCUS0YlT73JCWmE8j7vxW8yUm0lgsgmHns3A==}
+    peerDependencies:
+      tslib: '*'
+
+  '@microsoft/applicationinsights-common@3.0.4':
+    resolution: {integrity: sha512-r5gWaw/K9+tKfuo2GtDiDiKASgOkPOCrKW+wZzFvuR06uuwvWjbVQ6yW/YbnfuhRF5M65ksUiMi0eCMwEOGq7Q==}
+    peerDependencies:
+      tslib: '*'
+
+  '@microsoft/applicationinsights-core-js@3.0.4':
+    resolution: {integrity: sha512-anxy5kEkqBmVoEqJiJzaaXXA0wzqZi9U4zGd05xFJ04lWckP8dG3zyT3+GGdg7rDelqLTNGxndeYoFmDv63u1g==}
+    peerDependencies:
+      tslib: '*'
+
+  '@microsoft/applicationinsights-shims@3.0.1':
+    resolution: {integrity: sha512-DKwboF47H1nb33rSUfjqI6ryX29v+2QWcTrRvcQDA32AZr5Ilkr7whOOSsD1aBzwqX0RJEIP1Z81jfE3NBm/Lg==}
+
+  '@microsoft/applicationinsights-web-basic@3.0.4':
+    resolution: {integrity: sha512-KfoxPlLlf0JT12ADb23C5iGye/yFouoMgHEKULxkSQcYY9SsW/8rVrqqvoYKAL+u215CZU2A8Kc8sR3ehEaPCQ==}
+    peerDependencies:
+      tslib: '*'
+
+  '@microsoft/dynamicproto-js@2.0.2':
+    resolution: {integrity: sha512-MB8trWaFREpmb037k/d0bB7T2BP7Ai24w1e1tbz3ASLB0/lwphsq3Nq8S9I5AsI5vs4zAQT+SB5nC5/dLYTiOg==}
+
+  '@nevware21/ts-async@0.3.0':
+    resolution: {integrity: sha512-ZUcgUH12LN/F6nzN0cYd0F/rJaMLmXr0EHVTyYfaYmK55bdwE4338uue4UiVoRqHVqNW4KDUrJc49iGogHKeWA==}
+
+  '@nevware21/ts-utils@0.10.1':
+    resolution: {integrity: sha512-pMny25NnF2/MJwdqC3Iyjm2pGIXNxni4AROpcqDeWa+td9JMUY4bUS9uU9XW+BoBRqTLUL+WURF9SOd/6OQzRg==}
+
+  '@types/dompurify@3.0.5':
+    resolution: {integrity: sha512-1Wg0g3BtQF7sSb27fJQAKck1HECM6zV1EB66j8JH9i3LCjYabJa0FSdiSgsD5K/RbrsR0SiraKacLB+T8ZVYAg==}
+
+  '@types/linkify-it@5.0.0':
+    resolution: {integrity: sha512-sVDA58zAw4eWAffKOaQH5/5j3XeayukzDk+ewSsnv3p4yJEZHCCzMDiZM8e0OUrRvmpGZ85jf4yDHkHsgBNr9Q==}
+
+  '@types/lodash.throttle@4.1.3':
+    resolution: {integrity: sha512-FUm7uMuYRX7dzqmgX02bxdBwC75owUxGA4dDKtFePDLJ6N1ofXxkRX3NhJV8wOrNs/wCjaY6sDVJrD1lbyERoQ==}
+
+  '@types/lodash@4.14.104':
+    resolution: {integrity: sha512-ufQcVg4daO8xQ5kopxRHanqFdL4AI7ondQkV+2f+7mz3gvp0LkBx2zBRC6hfs3T87mzQFmf5Fck7Fi145Ul6NQ==}
+
+  '@types/markdown-it@12.2.3':
+    resolution: {integrity: sha512-GKMHFfv3458yYy+v/N8gjufHO6MSZKCOXpZc5GXIWWy8uldwfmPn98vp81gZ5f9SVw8YYBctgfJ22a2d7AOMeQ==}
+
+  '@types/mdurl@2.0.0':
+    resolution: {integrity: sha512-RGdgjQUZba5p6QEFAVx2OGb8rQDL/cPRG7GiedRzMcJ1tYnUANBncjbSB1NRGwbvjcPeikRABz2nshyPk1bhWg==}
+
+  '@types/picomatch@2.3.0':
+    resolution: {integrity: sha512-O397rnSS9iQI4OirieAtsDqvCj4+3eY1J+EPdNTKuHuRWIfUoGyzX294o8C4KJYaLqgSrd2o60c5EqCU8Zv02g==}
+
+  '@types/trusted-types@2.0.2':
+    resolution: {integrity: sha512-F5DIZ36YVLE+PN+Zwws4kJogq47hNgX3Nx6WyDJ3kcplxyke3XIzB8uK5n/Lpm1HBsbGzd6nmGehL8cPekP+Tg==}
+
+  '@types/vscode-notebook-renderer@1.60.0':
+    resolution: {integrity: sha512-u7TD2uuEZTVuitx0iijOJdKI0JLiQP6PsSBSRy2XmHXUOXcp5p1S56NrjOEDoF+PIHd3NL3eO6KTRSf5nukDqQ==}
+
+  '@types/vscode-webview@1.57.0':
+    resolution: {integrity: sha512-x3Cb/SMa1IwRHfSvKaZDZOTh4cNoG505c3NjTqGlMC082m++x/ETUmtYniDsw6SSmYzZXO8KBNhYxR0+VqymqA==}
+
+  '@vscode/extension-telemetry@0.9.0':
+    resolution: {integrity: sha512-37RxGHXrs3GoXPgCUKQhghEu0gxs8j27RLjQwwtSf4WhPdJKz8UrqMYzpsXlliQ05zURYmtdGZst9C6+hfWXaQ==}
+    engines: {vscode: ^1.75.0}
+
+  '@vscode/l10n@0.0.10':
+    resolution: {integrity: sha512-E1OCmDcDWa0Ya7vtSjp/XfHFGqYJfh+YPC1RkATU71fTac+j1JjCcB3qwSzmlKAighx2WxhLlfhS0RwAN++PFQ==}
+
+  '@vscode/l10n@0.0.11':
+    resolution: {integrity: sha512-ukOMWnCg1tCvT7WnDfsUKQOFDQGsyR5tNgRpwmqi+5/vzU3ghdDXzvIM4IOPdSb3OeSsBNvmSL8nxIVOqi2WXA==}
+
+  '@vscode/markdown-it-katex@1.0.2':
+    resolution: {integrity: sha512-QY/OnOHPTqc8tQoCoAjVblILX4yE6xGZHKODtiTKqA328OXra+lSpeJO5Ouo9AAvrs9AwcCLz6xvW3zwcsPBQg==}
+
+  argparse@2.0.1:
+    resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
+
+  balanced-match@1.0.2:
+    resolution: {integrity: sha512-3oSeUO0TMV67hN1AmbXsK4yaqU7tjiHlbxRDZOpH0KW9+CeX4bRAaX0Anxt0tx2MrpRpWwQaPwIlISEJhYU5Pw==}
+
+  boolbase@1.0.0:
+    resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==}
+
+  brace-expansion@1.1.11:
+    resolution: {integrity: sha512-iCuPHDFgrHX7H2vEI/5xpz07zSHB00TpugqhmYtVmMO6518mCuRMoOYFldEBl0g187ufozdaHgWKcYFb61qGiA==}
+
+  commander@8.3.0:
+    resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
+    engines: {node: '>= 12'}
+
+  concat-map@0.0.1:
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
+
+  css-select@5.1.0:
+    resolution: {integrity: sha512-nwoRF1rvRRnnCqqY7updORDsuqKzqYJ28+oSMaJMMgOauh3fvwHqMS7EZpIPqK8GL+g9mKxF1vP/ZjSeNjEVHg==}
+
+  css-what@6.1.0:
+    resolution: {integrity: sha512-HTUrgRJ7r4dsZKU6GjmpfRK1O76h97Z8MfS1G0FozR+oF2kG6Vfe8JE6zwrkbxigziPHinCJ+gCPjA9EaBDtRw==}
+    engines: {node: '>= 6'}
+
+  dom-serializer@2.0.0:
+    resolution: {integrity: sha512-wIkAryiqt/nV5EQKqQpo3SToSOV9J0DnbJqwK7Wv/Trc92zIAYZ4FlMu+JPFW1DfGFt81ZTCGgDEabffXeLyJg==}
+
+  domelementtype@2.3.0:
+    resolution: {integrity: sha512-OLETBj6w0OsagBwdXnPdN0cnMfF9opN69co+7ZrbfPGrdpPVNBUj02spi6B1N7wChLQiPn4CSH/zJvXw56gmHw==}
+
+  domhandler@5.0.3:
+    resolution: {integrity: sha512-cgwlv/1iFQiFnU96XXgROh8xTeetsnJiDsTc7TYCLFd9+/WNkIqPTxiM/8pSd8VIrhXGTf1Ny1q1hquVqDJB5w==}
+    engines: {node: '>= 4'}
+
+  dompurify@3.1.7:
+    resolution: {integrity: sha512-VaTstWtsneJY8xzy7DekmYWEOZcmzIe3Qb3zPd4STve1OBTa+e+WmS1ITQec1fZYXI3HCsOZZiSMpG6oxoWMWQ==}
+
+  domutils@3.1.0:
+    resolution: {integrity: sha512-H78uMmQtI2AhgDJjWeQmHwJJ2bLPD3GMmO7Zja/ZZh84wkm+4ut+IUnUdRa8uCGX88DiVx1j6FRe1XfxEgjEZA==}
+
+  entities@2.1.0:
+    resolution: {integrity: sha512-hCx1oky9PFrJ611mf0ifBLBRW8lUUVRlFolb5gWRfIELabBlbp9xZvrqZLZAs+NxFnbfQoeGd8wDkygjg7U85w==}
+
+  entities@4.5.0:
+    resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==}
+    engines: {node: '>=0.12'}
+
+  he@1.2.0:
+    resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
+    hasBin: true
+
+  highlight.js@11.8.0:
+    resolution: {integrity: sha512-MedQhoqVdr0U6SSnWPzfiadUcDHfN/Wzq25AkXiQv9oiOO/sG0S7XkvpFIqWBl9Yq1UYyYOOVORs5UW2XlPyzg==}
+    engines: {node: '>=12.0.0'}
+
+  katex@0.16.10:
+    resolution: {integrity: sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==}
+    hasBin: true
+
+  linkify-it@3.0.3:
+    resolution: {integrity: sha512-ynTsyrFSdE5oZ/O9GEf00kPngmOfVwazR5GKDq6EYfhlpFug3J2zybX56a2PRRpc9P+FuSoGNAwjlbDs9jJBPQ==}
+
+  lodash.throttle@4.1.1:
+    resolution: {integrity: sha512-wIkUCfVKpVsWo3JSZlc+8MB5it+2AN5W8J7YVMST30UrvcQNZ1Okbj+rbVniijTWE6FGYy4XJq/rHkas8qJMLQ==}
+
+  lru-cache@6.0.0:
+    resolution: {integrity: sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==}
+    engines: {node: '>=10'}
+
+  markdown-it-front-matter@0.2.4:
+    resolution: {integrity: sha512-25GUs0yjS2hLl8zAemVndeEzThB1p42yxuDEKbd4JlL3jiz+jsm6e56Ya8B0VREOkNxLYB4TTwaoPJ3ElMmW+w==}
+
+  markdown-it@12.3.2:
+    resolution: {integrity: sha512-TchMembfxfNVpHkbtriWltGWc+m3xszaRD0CZup7GFFhzIgQqxIfn3eGj1yZpfuflzPvfkt611B2Q/Bsk1YnGg==}
+    hasBin: true
+
+  mdurl@1.0.1:
+    resolution: {integrity: sha512-/sKlQJCBYVY9Ers9hqzKou4H6V5UWc/M59TH2dvkt+84itfnq7uFOMLpOiOS4ujvHP4etln18fmIxA5R5fll0g==}
+
+  minimatch@3.1.2:
+    resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
+
+  morphdom@2.6.1:
+    resolution: {integrity: sha512-Y8YRbAEP3eKykroIBWrjcfMw7mmwJfjhqdpSvoqinu8Y702nAwikpXcNFDiIkyvfCLxLM9Wu95RZqo4a9jFBaA==}
+
+  node-html-parser@6.1.13:
+    resolution: {integrity: sha512-qIsTMOY4C/dAa5Q5vsobRpOOvPfC4pB61UVW2uSwZNUp0QU/jCekTal1vMmbO0DgdHeLUJpv/ARmDqErVxA3Sg==}
+
+  nth-check@2.1.1:
+    resolution: {integrity: sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==}
+
+  picomatch@2.3.1:
+    resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==}
+    engines: {node: '>=8.6'}
+
+  punycode@2.3.1:
+    resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
+    engines: {node: '>=6'}
+
+  semver@7.5.4:
+    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
+    engines: {node: '>=10'}
+    hasBin: true
+
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
+
+  uc.micro@1.0.6:
+    resolution: {integrity: sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==}
+
+  vscode-jsonrpc@8.0.2:
+    resolution: {integrity: sha512-RY7HwI/ydoC1Wwg4gJ3y6LpU9FJRZAUnTYMXthqhFXXu77ErDd/xkREpGuk4MyYkk4a+XDWAMqe0S3KkelYQEQ==}
+    engines: {node: '>=14.0.0'}
+
+  vscode-jsonrpc@8.1.0:
+    resolution: {integrity: sha512-6TDy/abTQk+zDGYazgbIPc+4JoXdwC8NHU9Pbn4UJP1fehUyZmM4RHp5IthX7A6L5KS30PRui+j+tbbMMMafdw==}
+    engines: {node: '>=14.0.0'}
+
+  vscode-languageclient@8.0.2:
+    resolution: {integrity: sha512-lHlthJtphG9gibGb/y72CKqQUxwPsMXijJVpHEC2bvbFqxmkj9LwQ3aGU9dwjBLqsX1S4KjShYppLvg1UJDF/Q==}
+    engines: {vscode: ^1.67.0}
+
+  vscode-languageserver-protocol@3.17.2:
+    resolution: {integrity: sha512-8kYisQ3z/SQ2kyjlNeQxbkkTNmVFoQCqkmGrzLH6A9ecPlgTbp3wDTnUNqaUxYr4vlAcloxx8zwy7G5WdguYNg==}
+
+  vscode-languageserver-protocol@3.17.3:
+    resolution: {integrity: sha512-924/h0AqsMtA5yK22GgMtCYiMdCOtWTSGgUOkgEDX+wk2b0x4sAfLiO4NxBxqbiVtz7K7/1/RgVrVI0NClZwqA==}
+
+  vscode-languageserver-textdocument@1.0.11:
+    resolution: {integrity: sha512-X+8T3GoiwTVlJbicx/sIAF+yuJAqz8VvwJyoMVhwEMoEKE/fkDmrqUgDMyBECcM2A2frVZIUj5HI/ErRXCfOeA==}
+
+  vscode-languageserver-types@3.17.2:
+    resolution: {integrity: sha512-zHhCWatviizPIq9B7Vh9uvrH6x3sK8itC84HkamnBWoDFJtzBf7SWlpLCZUit72b3os45h6RWQNC9xHRDF8dRA==}
+
+  vscode-languageserver-types@3.17.3:
+    resolution: {integrity: sha512-SYU4z1dL0PyIMd4Vj8YOqFvHu7Hz/enbWtpfnVbJHU4Nd1YNYx8u0ennumc6h48GQNeOLxmwySmnADouT/AuZA==}
+
+  vscode-languageserver-types@3.17.5:
+    resolution: {integrity: sha512-Ld1VelNuX9pdF39h2Hgaeb5hEZM2Z3jUrrMgWQAu82jMtZp7p3vJT3BzToKtZI7NgQssZje5o0zryOrhQvzQAg==}
+
+  vscode-languageserver@8.1.0:
+    resolution: {integrity: sha512-eUt8f1z2N2IEUDBsKaNapkz7jl5QpskN2Y0G01T/ItMxBxw1fJwvtySGB9QMecatne8jFIWJGWI61dWjyTLQsw==}
+    hasBin: true
+
+  vscode-markdown-languageserver@0.5.0-alpha.9:
+    resolution: {integrity: sha512-60jiPHgkstgkyODCN8qCJ4xAOrP/EoKyISmEAcJ7ILT5k2kAJF9JFEl3LvVZ+11HGGMJ2lm1L+lT2/JHvu5Pgg==}
+
+  vscode-markdown-languageservice@0.3.0-alpha.3:
+    resolution: {integrity: sha512-KPjIuCkSqabkzci7TnlLKep5FYIC45tS7UC5H8zoOii7aoKJru5mZBDXJt86bM3XTgnfpW7rUYqhNnvXbbCBbw==}
+
+  vscode-markdown-languageservice@0.5.0-alpha.8:
+    resolution: {integrity: sha512-b2NgVMZvzI/7hRL32Kcu9neAAPFQzkcf/Fqwlxbz9p1/Q7aIorGACOGGo00s72AJtwjkCJ29eVJwUlFMFbPKqA==}
+
+  vscode-uri@3.0.8:
+    resolution: {integrity: sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==}
+
+  yallist@4.0.0:
+    resolution: {integrity: sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==}
+
+snapshots:
+
+  '@microsoft/1ds-core-js@4.0.3(tslib@2.8.1)':
+    dependencies:
+      '@microsoft/applicationinsights-core-js': 3.0.4(tslib@2.8.1)
+      '@microsoft/applicationinsights-shims': 3.0.1
+      '@microsoft/dynamicproto-js': 2.0.2
+      '@nevware21/ts-async': 0.3.0
+      '@nevware21/ts-utils': 0.10.1
+    transitivePeerDependencies:
+      - tslib
+
+  '@microsoft/1ds-post-js@4.0.3(tslib@2.8.1)':
+    dependencies:
+      '@microsoft/1ds-core-js': 4.0.3(tslib@2.8.1)
+      '@microsoft/applicationinsights-shims': 3.0.1
+      '@microsoft/dynamicproto-js': 2.0.2
+      '@nevware21/ts-async': 0.3.0
+      '@nevware21/ts-utils': 0.10.1
+    transitivePeerDependencies:
+      - tslib
+
+  '@microsoft/applicationinsights-channel-js@3.0.4(tslib@2.8.1)':
+    dependencies:
+      '@microsoft/applicationinsights-common': 3.0.4(tslib@2.8.1)
+      '@microsoft/applicationinsights-core-js': 3.0.4(tslib@2.8.1)
+      '@microsoft/applicationinsights-shims': 3.0.1
+      '@microsoft/dynamicproto-js': 2.0.2
+      '@nevware21/ts-async': 0.3.0
+      '@nevware21/ts-utils': 0.10.1
+      tslib: 2.8.1
+
+  '@microsoft/applicationinsights-common@3.0.4(tslib@2.8.1)':
+    dependencies:
+      '@microsoft/applicationinsights-core-js': 3.0.4(tslib@2.8.1)
+      '@microsoft/applicationinsights-shims': 3.0.1
+      '@microsoft/dynamicproto-js': 2.0.2
+      '@nevware21/ts-utils': 0.10.1
+      tslib: 2.8.1
+
+  '@microsoft/applicationinsights-core-js@3.0.4(tslib@2.8.1)':
+    dependencies:
+      '@microsoft/applicationinsights-shims': 3.0.1
+      '@microsoft/dynamicproto-js': 2.0.2
+      '@nevware21/ts-async': 0.3.0
+      '@nevware21/ts-utils': 0.10.1
+      tslib: 2.8.1
+
+  '@microsoft/applicationinsights-shims@3.0.1':
+    dependencies:
+      '@nevware21/ts-utils': 0.10.1
+
+  '@microsoft/applicationinsights-web-basic@3.0.4(tslib@2.8.1)':
+    dependencies:
+      '@microsoft/applicationinsights-channel-js': 3.0.4(tslib@2.8.1)
+      '@microsoft/applicationinsights-common': 3.0.4(tslib@2.8.1)
+      '@microsoft/applicationinsights-core-js': 3.0.4(tslib@2.8.1)
+      '@microsoft/applicationinsights-shims': 3.0.1
+      '@microsoft/dynamicproto-js': 2.0.2
+      '@nevware21/ts-async': 0.3.0
+      '@nevware21/ts-utils': 0.10.1
+      tslib: 2.8.1
+
+  '@microsoft/dynamicproto-js@2.0.2':
+    dependencies:
+      '@nevware21/ts-utils': 0.10.1
+
+  '@nevware21/ts-async@0.3.0':
+    dependencies:
+      '@nevware21/ts-utils': 0.10.1
+
+  '@nevware21/ts-utils@0.10.1': {}
+
+  '@types/dompurify@3.0.5':
+    dependencies:
+      '@types/trusted-types': 2.0.2
+
+  '@types/linkify-it@5.0.0': {}
+
+  '@types/lodash.throttle@4.1.3':
+    dependencies:
+      '@types/lodash': 4.14.104
+
+  '@types/lodash@4.14.104': {}
+
+  '@types/markdown-it@12.2.3':
+    dependencies:
+      '@types/linkify-it': 5.0.0
+      '@types/mdurl': 2.0.0
+
+  '@types/mdurl@2.0.0': {}
+
+  '@types/picomatch@2.3.0': {}
+
+  '@types/trusted-types@2.0.2': {}
+
+  '@types/vscode-notebook-renderer@1.60.0': {}
+
+  '@types/vscode-webview@1.57.0': {}
+
+  '@vscode/extension-telemetry@0.9.0(tslib@2.8.1)':
+    dependencies:
+      '@microsoft/1ds-core-js': 4.0.3(tslib@2.8.1)
+      '@microsoft/1ds-post-js': 4.0.3(tslib@2.8.1)
+      '@microsoft/applicationinsights-web-basic': 3.0.4(tslib@2.8.1)
+    transitivePeerDependencies:
+      - tslib
+
+  '@vscode/l10n@0.0.10': {}
+
+  '@vscode/l10n@0.0.11': {}
+
+  '@vscode/markdown-it-katex@1.0.2':
+    dependencies:
+      katex: 0.16.10
+
+  argparse@2.0.1: {}
+
+  balanced-match@1.0.2: {}
+
+  boolbase@1.0.0: {}
+
+  brace-expansion@1.1.11:
+    dependencies:
+      balanced-match: 1.0.2
+      concat-map: 0.0.1
+
+  commander@8.3.0: {}
+
+  concat-map@0.0.1: {}
+
+  css-select@5.1.0:
+    dependencies:
+      boolbase: 1.0.0
+      css-what: 6.1.0
+      domhandler: 5.0.3
+      domutils: 3.1.0
+      nth-check: 2.1.1
+
+  css-what@6.1.0: {}
+
+  dom-serializer@2.0.0:
+    dependencies:
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+      entities: 4.5.0
+
+  domelementtype@2.3.0: {}
+
+  domhandler@5.0.3:
+    dependencies:
+      domelementtype: 2.3.0
+
+  dompurify@3.1.7: {}
+
+  domutils@3.1.0:
+    dependencies:
+      dom-serializer: 2.0.0
+      domelementtype: 2.3.0
+      domhandler: 5.0.3
+
+  entities@2.1.0: {}
+
+  entities@4.5.0: {}
+
+  he@1.2.0: {}
+
+  highlight.js@11.8.0: {}
+
+  katex@0.16.10:
+    dependencies:
+      commander: 8.3.0
+
+  linkify-it@3.0.3:
+    dependencies:
+      uc.micro: 1.0.6
+
+  lodash.throttle@4.1.1: {}
+
+  lru-cache@6.0.0:
+    dependencies:
+      yallist: 4.0.0
+
+  markdown-it-front-matter@0.2.4: {}
+
+  markdown-it@12.3.2:
+    dependencies:
+      argparse: 2.0.1
+      entities: 2.1.0
+      linkify-it: 3.0.3
+      mdurl: 1.0.1
+      uc.micro: 1.0.6
+
+  mdurl@1.0.1: {}
+
+  minimatch@3.1.2:
+    dependencies:
+      brace-expansion: 1.1.11
+
+  morphdom@2.6.1: {}
+
+  node-html-parser@6.1.13:
+    dependencies:
+      css-select: 5.1.0
+      he: 1.2.0
+
+  nth-check@2.1.1:
+    dependencies:
+      boolbase: 1.0.0
+
+  picomatch@2.3.1: {}
+
+  punycode@2.3.1: {}
+
+  semver@7.5.4:
+    dependencies:
+      lru-cache: 6.0.0
+
+  tslib@2.8.1: {}
+
+  uc.micro@1.0.6: {}
+
+  vscode-jsonrpc@8.0.2: {}
+
+  vscode-jsonrpc@8.1.0: {}
+
+  vscode-languageclient@8.0.2:
+    dependencies:
+      minimatch: 3.1.2
+      semver: 7.5.4
+      vscode-languageserver-protocol: 3.17.2
+
+  vscode-languageserver-protocol@3.17.2:
+    dependencies:
+      vscode-jsonrpc: 8.0.2
+      vscode-languageserver-types: 3.17.2
+
+  vscode-languageserver-protocol@3.17.3:
+    dependencies:
+      vscode-jsonrpc: 8.1.0
+      vscode-languageserver-types: 3.17.3
+
+  vscode-languageserver-textdocument@1.0.11: {}
+
+  vscode-languageserver-types@3.17.2: {}
+
+  vscode-languageserver-types@3.17.3: {}
+
+  vscode-languageserver-types@3.17.5: {}
+
+  vscode-languageserver@8.1.0:
+    dependencies:
+      vscode-languageserver-protocol: 3.17.3
+
+  vscode-markdown-languageserver@0.5.0-alpha.9:
+    dependencies:
+      '@vscode/l10n': 0.0.11
+      vscode-languageserver: 8.1.0
+      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-types: 3.17.5
+      vscode-markdown-languageservice: 0.5.0-alpha.8
+      vscode-uri: 3.0.8
+
+  vscode-markdown-languageservice@0.3.0-alpha.3:
+    dependencies:
+      '@vscode/l10n': 0.0.10
+      picomatch: 2.3.1
+      vscode-languageserver-textdocument: 1.0.11
+      vscode-languageserver-types: 3.17.5
+      vscode-uri: 3.0.8
+
+  vscode-markdown-languageservice@0.5.0-alpha.8:
+    dependencies:
+      '@vscode/l10n': 0.0.10
+      node-html-parser: 6.1.13
+      picomatch: 2.3.1
+      vscode-languageserver-protocol: 3.17.3
+      vscode-languageserver-textdocument: 1.0.11
+      vscode-uri: 3.0.8
+
+  vscode-uri@3.0.8: {}
+
+  yallist@4.0.0: {}

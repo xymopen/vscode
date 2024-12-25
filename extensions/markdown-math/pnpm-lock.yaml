@@ -1,0 +1,55 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@vscode/markdown-it-katex':
+        specifier: ^1.1.0
+        version: 1.1.0
+    devDependencies:
+      '@types/markdown-it':
+        specifier: ^0.0.0
+        version: 0.0.0
+      '@types/vscode-notebook-renderer':
+        specifier: ^1.60.0
+        version: 1.72.0
+
+packages:
+
+  '@types/markdown-it@0.0.0':
+    resolution: {integrity: sha512-rLEOTm6Wi9M8GFnIK7VczXSEThIN/eVoevpTYVk+FD/DPX3N15Sj9b3vkjjDY63U0Zw1yawf13CI92CCHpC5kw==}
+
+  '@types/vscode-notebook-renderer@1.72.0':
+    resolution: {integrity: sha512-5iTjb39DpLn03ULUwrDR3L2Dy59RV4blSUHy0oLdQuIY11PhgWO4mXIcoFS0VxY1GZQ4IcjSf3ooT2Jrrcahnw==}
+
+  '@vscode/markdown-it-katex@1.1.0':
+    resolution: {integrity: sha512-9cF2eJpsJOEs2V1cCAoJW/boKz9GQQLvZhNvI030K90z6ZE9lRGc9hDVvKut8zdFO2ObjwylPXXXVYvTdP2O2Q==}
+
+  commander@8.3.0:
+    resolution: {integrity: sha512-OkTL9umf+He2DZkUq8f8J9of7yL6RJKI24dVITBmNfZBmri9zYZQrKkuXiKhyfPSu8tUhnVBB1iKXevvnlR4Ww==}
+    engines: {node: '>= 12'}
+
+  katex@0.16.10:
+    resolution: {integrity: sha512-ZiqaC04tp2O5utMsl2TEZTXxa6WSC4yo0fv5ML++D3QZv/vx2Mct0mTlRx3O+uUkjfuAgOkzsCmq5MiUEsDDdA==}
+    hasBin: true
+
+snapshots:
+
+  '@types/markdown-it@0.0.0': {}
+
+  '@types/vscode-notebook-renderer@1.72.0': {}
+
+  '@vscode/markdown-it-katex@1.1.0':
+    dependencies:
+      katex: 0.16.10
+
+  commander@8.3.0: {}
+
+  katex@0.16.10:
+    dependencies:
+      commander: 8.3.0
